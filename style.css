@@ -31,6 +31,8 @@ body{
 .section2{
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .section2-container1 > h2 {
     font-size: 45px;
@@ -47,9 +49,26 @@ body{
     border-radius: 45px;
     border: none;  
 }
+.section2-container2{
+    /* width: 100px;
+    height: auto; */
+}
+.section2-container2img{
+    background-image: url(./images/Circle\ design.svg);
+}
  /* section 2 end */
+
+/* section 3 start */
  .section3-container1{
+     border: 1px solid red;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
  }
+ .section3-container1 img{
+    padding: 15px;
+ }
+ /* section 3 end */
 
 
