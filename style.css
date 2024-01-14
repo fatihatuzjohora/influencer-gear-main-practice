@@ -4,7 +4,7 @@
 }
 
 :root{
-    --
+    --praimrycolor:#ee6225;
 }
 body{
     margin-left: 10%;
@@ -14,7 +14,7 @@ body{
  .section1{
     display: flex;
     justify-content:space-between;
-    color: #3A3A3A;
+    color: var(--praimrycolor) #3A3A3A;
  }
  .section1-containe2{
     margin-top: 25px;
@@ -48,5 +48,8 @@ body{
     border: none;  
 }
  /* section 2 end */
+ .section3-container1{
+    display: flex;
+ }
 
 
